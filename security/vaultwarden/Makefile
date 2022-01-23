@@ -2,7 +2,7 @@
 
 PORTNAME=	vaultwarden
 DISTVERSION=	1.23.1
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	security
 MASTER_SITES=	https://github.com/dani-garcia/bw_web_builds/releases/download/v${DISTVERSION_WV}/:web
 DISTFILES=	${WV_DISTFILE}:web
@@ -200,8 +200,8 @@ CARGO_CRATES=	addr2line-0.17.0 \
 		opaque-debug-0.3.0 \
 		openssl-0.10.38 \
 		openssl-probe-0.1.4 \
-		openssl-src-300.0.2+3.0.0 \
-		openssl-sys-0.9.71 \
+		openssl-src-111.15.0+1.1.1k \
+		openssl-sys-0.9.72 \
 		owning_ref-0.3.3 \
 		parity-ws-0.11.1 \
 		parking_lot-0.4.8 \
